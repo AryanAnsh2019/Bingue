@@ -1,0 +1,26 @@
+.Home{
+    background-color:#ECB1A1;
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    position: relative;
+    text-align:center;
+}
+.Home h1{
+    margin:0;
+    font-size: 3rem;
+    font-family: 'Arvo', serif;
+}
+.Home p{
+    color:#8d8c8c;
+    font-size: 1.2rem;
+}
+.Home .converstaion-img{
+    width:40%;
+}
+.Home .talking-img{
+    width:70%;
+}
