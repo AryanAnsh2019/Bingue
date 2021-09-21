@@ -1,6 +1,7 @@
 import Page from "./Page";
 import "./css/App.css";
 import Home from "./Home";
+import Detect from "./Detect";
 import { Switch, Route } from "react-router-dom";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
             <h1>translate</h1>
           </Route>
           <Route path="/detect" exact>
-            <h1>detect</h1>
+            <Detect />
           </Route>
         </Switch>
       </Page>
