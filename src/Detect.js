@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { francAll } from "franc";
 import langs from "langs";
 import "./css/Detect.css";
+import Crying from './Crying'
 
 function Detect() {
   const [text, setText] = useState("");
@@ -51,17 +52,7 @@ function Detect() {
               Sorry! We were not able to detect the language of the above
               text...
             </p>
-            <div class="container">
-              <div class="tear"></div>
-              <div class="tear2"></div>
-              <div class="face">
-                <div class="eyebrow">︶</div>
-                <div class="eyebrow">︶</div>
-                <div class="eye"></div>
-                <div class="eye"></div>
-                <div class="mouth"></div>
-              </div>
-            </div>
+            <Crying/>
           </>
         ) : (
           ""
