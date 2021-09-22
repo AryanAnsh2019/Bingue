@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { francAll } from "franc";
+import { francAll } from "franc-min";
 import langs from "langs";
 import "./css/Detect.css";
-import Crying from './Crying'
+import Crying from "./Crying";
+import countryData from "./data";
+import { countryCodeEmoji } from "country-code-emoji";
 
 function Detect() {
   const [text, setText] = useState("");
@@ -41,9 +43,16 @@ function Detect() {
           <>
             <h5>Most Probable Languages</h5>
             <ul>
-              {results.map((r) => (
-                <li key={r}>{r}</li>
-              ))}
+              {results.map((r) => {
+                console
+                  .log
+                  //   countryData
+                  //     .map((c) => (c.lang === r ? c : ""))[0]
+                  // ["TZ", "KE", "RW"].map(countryCodeEmoji)
+                  ();
+                // <li key={r}>{langs.where(3, r).name}</li>
+                return <li key={r}>{r}</li>;
+              })}
             </ul>
           </>
         ) : typeof results === "object" ? (
@@ -52,7 +61,7 @@ function Detect() {
               Sorry! We were not able to detect the language of the above
               text...
             </p>
-            <Crying/>
+            <Crying />
           </>
         ) : (
           ""
