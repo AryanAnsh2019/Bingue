@@ -305,4 +305,34 @@ export default [
     countries: ["IN"],
     speakers: "20.7 million",
   },
+  {
+    lang: "Panjabi",
+    countries: ["IN"],
+    speakers: "113 million",
+  },
+  {
+    lang: "Tamil",
+    countries: ["IN"],
+    speakers: "83 million",
+  },
+  {
+    lang: "Gujarati",
+    countries: ["IN"],
+    speakers: "60 million",
+  },
+  {
+    lang: "Telugu",
+    countries: ["IN", "LK", "SG"],
+    speakers: "75 million",
+  },
+  {
+    lang: "Japanese",
+    countries: ["JP", "PW"],
+    speakers: "128 million",
+  },
+  {
+    lang: "Thai",
+    countries: ["TH", "KH"],
+    speakers: "28 million",
+  },
 ];
