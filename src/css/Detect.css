@@ -32,14 +32,7 @@
   max-height: 70%;
   overflow: scroll;
 }
-.Detect-results ul li {
-  list-style-type: none;
-  width: calc(50% - 20px);
-  height: 150px;
-  background-color: #fff;
-  border-radius: 10px;
-  margin: 10px;
-}
+
 .error {
   margin-top: 30px;
   font-size: x-large;

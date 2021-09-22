@@ -2,13 +2,18 @@
 export default [
   {
     lang: "English",
-    countries: ["US", "UK", "AU", "CA"],
+    countries: ["US", "GB", "AU", "CA"],
     speakers: "1.348 billion",
   },
   {
     lang: "Spanish",
     countries: ["ES", "MX", "AR"],
     speakers: "463 million",
+  },
+  {
+    lang: "German",
+    countries: ["DE", "BE", "AT"],
+    speakers: "180 million",
   },
   {
     lang: "Portuguese",
@@ -26,6 +31,16 @@ export default [
     speakers: "274 million",
   },
   {
+    lang: "Romanian",
+    countries: ["RO", "RS", "MD"],
+    speakers: "30 million",
+  },
+  {
+    lang: "Javanese",
+    countries: ["ID"],
+    speakers: "82 million",
+  },
+  {
     lang: "Vietnamese",
     countries: ["VN", "CZ"],
     speakers: "76 million",
@@ -39,6 +54,11 @@ export default [
     lang: "Turkish",
     countries: ["TR", "CY", "GR", "IQ"],
     speakers: "88 million",
+  },
+  {
+    lang: "Sundanese",
+    countries: ["ID"],
+    speakers: "42 million",
   },
   {
     lang: "Polish",
@@ -146,7 +166,7 @@ export default [
     speakers: "8.2 million",
   },
   {
-    lang: "Chewa",
+    lang: "Chichewa",
     countries: ["MW", "ZW", "ZM"],
     speakers: "12 million",
   },

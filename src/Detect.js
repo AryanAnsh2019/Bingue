@@ -3,8 +3,8 @@ import { francAll } from "franc-min";
 import langs from "langs";
 import "./css/Detect.css";
 import Crying from "./Crying";
-import countryData from "./data";
-import { countryCodeEmoji } from "country-code-emoji";
+import SingleLanguage from "./SingleLanguage";
+
 
 function Detect() {
   const [text, setText] = useState("");
@@ -51,7 +51,7 @@ function Detect() {
                   // ["TZ", "KE", "RW"].map(countryCodeEmoji)
                   ();
                 // <li key={r}>{langs.where(3, r).name}</li>
-                return <li key={r}>{r}</li>;
+                return <SingleLanguage key={r} lang={r}>{r}</SingleLanguage>;
               })}
             </ul>
           </>

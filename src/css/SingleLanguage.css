@@ -1,0 +1,32 @@
+.SingleLanguage {
+  list-style-type: none;
+  width: calc(50% - 20px);
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.SingleLanguage h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.SingleLanguage p{
+    font-size: 1.2rem;
+    color:#999;
+    font-weight: 300;
+}
+.SingleLanguage div{
+    font-size: 2rem;
+    margin-top:50px;
+    
+}
+.SingleLanguage div span{
+display: inline-block;
+margin-left: 5px;;
+}
+.SingleLanguage div span:nth-of-type(1){
+    margin-left: 0;
+
+}
